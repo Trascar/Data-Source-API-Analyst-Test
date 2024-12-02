@@ -5,6 +5,19 @@ This repository contains the solution to the **Data Source API Analyst** challen
 
 ---
 
+## Repository structure
+```
+├── Content/
+│ ├── API_Documentation.md # Detailed API usage and endpoints
+│ ├── Data-Cleaning.md # Explanation of the data-cleaning process
+│ ├── Troubleshooting_Guide.md # Guide for handling possible errors
+├── Postman_Collection/
+│ ├── API_Test.ipynb # Jupyter Notebook containing data extraction logic
+├── README.md # Project overview and approach
+```
+
+---
+
 ## Client Requirements
 
 ### **Repository Search and Filtering**
