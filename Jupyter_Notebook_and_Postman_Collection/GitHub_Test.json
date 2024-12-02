@@ -14,7 +14,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "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",
+							"value": "",
 							"type": "string"
 						}
 					]
@@ -51,7 +51,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "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",
+							"value": "",
 							"type": "string"
 						}
 					]
@@ -84,7 +84,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "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",
+							"value": "",
 							"type": "string"
 						}
 					]
@@ -117,7 +117,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "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",
+							"value": "",
 							"type": "string"
 						}
 					]
