@@ -51,11 +51,11 @@ This repository contains the solution to the **Data Source API Analyst** challen
 
 ### 3. Error Handling
 - Implemented error management:
- - **401 Unauthorized**: Refreshed expired tokens.
- - **403 Forbidden (Rate Limit)**: Paused execution until limits reset.
- - **404 Not Found**: Skipped missing resources (e.g., absent `README.md` files).
- 
+  - **401 Unauthorized**: Refreshed expired tokens.
+  - **403 Forbidden (Rate Limit)**: Paused execution until limits reset.
+  - **404 Not Found**: Skipped missing resources (e.g., absent `README.md` files).
+
  ---
- 
+
 ## Reflection
 This test successfully extracted data from 36 relevant repositories, including commit histories and specific files, meeting the client's requirements. The retrieved information can be used for further processing and analysis.
