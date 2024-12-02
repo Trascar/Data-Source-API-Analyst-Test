@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "458a6327-9a89-4241-ae27-6a7564c45fbe",
-		"name": "GitHub Test",
+		"_postman_id": "9eb162d2-8633-430f-8d0b-de6f2d6e2d6e",
+		"name": "GitHub_API_Test",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "18839252"
 	},
@@ -143,10 +143,36 @@
 			"response": []
 		}
 	],
-	"variable": [
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{auth_token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
 		{
-			"key": "auth_token",
-			"value": "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"
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }
