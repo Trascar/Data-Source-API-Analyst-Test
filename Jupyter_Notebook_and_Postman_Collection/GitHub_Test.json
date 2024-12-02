@@ -1,0 +1,152 @@
+{
+	"info": {
+		"_postman_id": "458a6327-9a89-4241-ae27-6a7564c45fbe",
+		"name": "GitHub Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18839252"
+	},
+	"item": [
+		{
+			"name": "Repos",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "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",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/search/repositories?q=language:python+language:javascript+stars:>=100+topic:machine-learning+topic:data-analysis",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"search",
+						"repositories"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "language:python+language:javascript+stars:>=100+topic:machine-learning+topic:data-analysis"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Commits",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "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",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/repos/scikit-learn/scikit-learn/commits",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"scikit-learn",
+						"scikit-learn",
+						"commits"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Readme",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "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",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/repos/scikit-learn/scikit-learn/readme",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"scikit-learn",
+						"scikit-learn",
+						"readme"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "License",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "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",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com/repos/scikit-learn/scikit-learn/license",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					],
+					"path": [
+						"repos",
+						"scikit-learn",
+						"scikit-learn",
+						"license"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "auth_token",
+			"value": "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"
+		}
+	]
+}
