@@ -18,5 +18,4 @@
 
 ## 404 Not Found
 - **Issue**: Requested resource does not exist (e.g., no `README` or `LICENSE`).
-- **Resolution**:
-  - Conditional logic is used to handle absent files gracefully.
+- **Resolution**: Conditional logic is used to handle absent files gracefully.
