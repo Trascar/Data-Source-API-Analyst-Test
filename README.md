@@ -13,6 +13,7 @@ This repository contains the solution to the **Data Source API Analyst** challen
 │ ├── Troubleshooting_Guide.md # Guide for handling possible errors
 ├── Postman_Collection/
 │ ├── API_Test.ipynb # Jupyter Notebook containing data extraction logic
+│ ├── GitHub_API_Test.json # Exported Postman collection
 ├── README.md # Project overview and approach
 ```
 
